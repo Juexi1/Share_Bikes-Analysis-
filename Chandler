@@ -1,0 +1,372 @@
+-- Import the data 
+USE Bike_Share;
+CREATE TABLE divvy_tripdata_202201(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202201-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202201
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202202(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202202-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202202
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202203(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202203-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202203
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202204(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202204-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202204
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202205(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202205-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202205
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202206(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202206-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202206
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202207(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202207-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202207
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202208(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202208-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202208
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+-- data type changed 
+CREATE TABLE divvy_tripdata_202209(
+ride_id text,
+rideable_type text,
+started_at text,
+ended_at text,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202209-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202209
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202210(
+ride_id text,
+rideable_type text,
+started_at text,
+ended_at text,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202210-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202210
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202211(
+ride_id text,
+rideable_type text,
+started_at text,
+ended_at text,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202211-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202211
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202212(
+ride_id text,
+rideable_type text,
+started_at text,
+ended_at text,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202212-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202212
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202301(
+ride_id text,
+rideable_type text,
+started_at text,
+ended_at text,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202301-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202301
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE divvy_tripdata_202302(
+ride_id text,
+rideable_type text,
+started_at text,
+ended_at text,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text
+);
+LOAD DATA LOCAL INFILE '/Users/zhangjuexi/Downloads/New Folder With Items/202302-divvy-tripdata.csv'
+INTO TABLE divvy_tripdata_202302
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+-- data prepare  
+SET Name = REPLACE(Name, '"', '')
+
+
+SET SQL_SAFE_UPDATES = 0;
+SELECT * FROM Bike_Share.divvy_tripdata_202210;
+alter table divvy_tripdata_202210 add column started_at_time DATETIME;
+UPDATE divvy_tripdata_202210
+SET started_at_time = str_to_date(`started_at`,'%Y-%m-%d %H:%i:%s');
+alter table divvy_tripdata_202210  add column ended_at_time DATETIME;
+UPDATE divvy_tripdata_202210
+SET ended_at_time = str_to_date(`ended_at`,'%Y-%m-%d %H:%i:%s');
+
+-- data cleaning
+SELECT column_names 
+FROM table_name
+WHERE column_name IS NULL;
+
+ALTER TABLE divvy_tripdata_202302
+RENAME COLUMN ended_at_time
+To ended_at
+
+ALTER TABLE divvy_tripdata_202201 ADD ride_length INT;
+Update divvy_tripdata_202201 SET ride_length = timestampdiff(second,started_at,ended_at);
+
+SET SQL_SAFE_UPDATES = 0;
+SELECT * FROM Bike_Share.divvy_tripdata_202204;
+alter table divvy_tripdata_202204 add column day_of_week int;
+UPDATE divvy_tripdata_202204
+SET day_of_week = weekday(started_at)
+
+ALTER TABLE divvy_tripdata_202201
+DROP COLUMN ride_length;
+
+DELETE FROM divvy_tripdata_2022_2023
+WHERE ride_length < '0'
+
+-- Data Combination 
+
+CREATE TABLE divvy_tripdata_2022_2023(
+ride_id text,
+rideable_type text,
+started_at datetime,
+ended_at datetime,
+start_station_name text,
+start_station_id text,
+end_station_name text,
+end_station_id text,
+start_lat double,
+start_lng double,
+end_lat double,
+end_lng double,
+member_casual text,
+ride_length int,
+day_of_week int
+);
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202201;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202202;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202203;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202204;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202205;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202206;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202207;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202208;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202209;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202210;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202211;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202212;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202301;
+insert into divvy_tripdata_2022_2023 select * from divvy_tripdata_202302
+
+-- Data formating 
+
+UPDATE divvy_tripdata_2022_2023 SET member_casual = substr(member_casual,1,6)
+
+-- Data Analysis 
+
+SELECT 
+rideable_type,
+member_casual,
+day_of_week,
+SUM(ride_length) AS sum_ride,
+count(distinct ride_id) AS total_id
+FROM Bike_Share.divvy_tripdata_2022_2023
+WHERE rideable_type = 'docked_bike'
+GROUP BY member_casual
+
+
+SELECT 
+rideable_type,
+member_casual,
+day_of_week,
+SUM(ride_length) AS sum_ride,
+count(distinct ride_id) AS total_id,
+count(distinct start_station_id) AS total_start_station,
+count(distinct end_station_id) AS total_end_station 
+FROM Bike_Share.divvy_tripdata_2022_2023
+WHERE member_casual = 'casual'
+AND rideable_type = 'docked_bike'
+GROUP BY day_of_week
+
+-- data analsyis 
